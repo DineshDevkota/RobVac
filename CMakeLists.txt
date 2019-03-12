@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
-project(untitled)
+project(RobVac C)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_C_STANDARD 99)
 
-add_executable(RobVac src/main.cpp)
+add_executable(RobVac src/main.c)
