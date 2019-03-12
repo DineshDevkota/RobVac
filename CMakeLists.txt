@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RobVac main.cpp)
+add_executable(RobVac src/main.cpp)
